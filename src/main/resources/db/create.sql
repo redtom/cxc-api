@@ -1,0 +1,11 @@
+create sequence CREDIT_CARD_SEQ start with 4 increment by 1;
+
+create table CREDIT_CARD (
+    ID BIGINT,
+    USERID VARCHAR(16),
+    NUMBER VARCHAR(16),
+    NICKNAME VARCHAR(64),
+    TYPE VARCHAR(16),
+    SUBTYPE VARCHAR(6),
+    HOLDERNAME VARCHAR(128)
+);
